@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode: deep black with electric blue highlights -->
+    <color name="colorBubbleSent">#1565C0</color>   <!-- strong blue for sent messages -->
+    <color name="colorBubbleReceived">#1E1E1E</color> <!-- matte black for received -->
+    <color name="colorPrimary">#0A84FF</color>     <!-- vibrant blue for icons/buttons -->
+    <color name="colorBackground">#000000</color>  <!-- pure black background -->
+    <color name="colorTextPrimary">#E5E5EA</color> <!-- off-white for readability -->
+    <color name="colorTextOnBlue">#FFFFFF</color>  <!-- pure white on blue -->
+</resources>

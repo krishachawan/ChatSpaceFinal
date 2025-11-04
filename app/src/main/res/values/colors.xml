@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light mode: cool, blue-forward with contrast -->
+    <color name="colorBubbleSent">#2196F3</color>   <!-- bright blue for your messages -->
+    <color name="colorBubbleReceived">#E0E0E0</color> <!-- soft gray for received -->
+    <color name="colorPrimary">#1976D2</color>     <!-- medium blue for toolbar/buttons -->
+    <color name="colorBackground">#FFFFFF</color>  <!-- white background -->
+    <color name="colorTextPrimary">#000000</color> <!-- black text -->
+    <color name="colorTextOnBlue">#FFFFFF</color>  <!-- white text on blue -->
+</resources>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dark theme -->
+    <style name="Theme.ChitChatApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0A84FF</item> <!-- bright blue -->
+        <item name="colorPrimaryContainer">#1C1C1E</item> <!-- deep gray -->
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorBackground</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+
+    </style>
+
+</resources>
