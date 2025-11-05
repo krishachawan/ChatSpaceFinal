@@ -70,8 +70,7 @@
                 android:background="@drawable/rounded_input_bg"
                 android:inputType="text" />
 
-            <Button
-                android:id="@+id/button_host"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
@@ -97,6 +96,40 @@
                 android:elevation="6dp"
                 android:paddingVertical="12dp"
                 android:background="@drawable/rounded_button_bg" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_host2"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_button_bg"
+                    android:backgroundTint="@color/colorBubbleSent"
+                    android:elevation="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingVertical="12dp"
+                    android:text="Host Chat"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTextOnBlue" />
+
+                <Button
+                    android:id="@+id/button_join2"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_button_bg"
+                    android:elevation="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingVertical="12dp"
+                    android:text="Join Chat"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTextOnBlue" />
+            </LinearLayout>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
