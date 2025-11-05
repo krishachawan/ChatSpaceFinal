@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
         titleText = findViewById(R.id.text_app_title);
         nameInput = findViewById(R.id.edit_text_name);
         ipInput = findViewById(R.id.edit_text_ip);
-        hostButton = findViewById(R.id.button_host2);
-        joinButton = findViewById(R.id.button_join2);
+        hostButton = findViewById(R.id.button_host);
+        joinButton = findViewById(R.id.button_join);
 
         chatViewModel = new ViewModelProvider(this).get(ChatViewModel.class);
 
